@@ -20,6 +20,10 @@ import credit_star from './credit_star.svg'
 import profile_icon from './profile_icon.png'
 import OIP from './OIP.jpg'
 import download from './download.png'
+import download1 from './download1.png'
+import email_download from './email_download.png'
+import lock_icon_download from './lock_icon_download.png'
+import user_logo from './user_logo.png'
 
 export const assets = {
     logo,
@@ -38,7 +42,13 @@ export const assets = {
     credit_star,
     profile_icon,
     OIP,
-    download
+    download,
+    download1,
+    email_download,
+    lock_icon_download,
+    user_logo
+
+    
 }
 
 export const stepsData = [
