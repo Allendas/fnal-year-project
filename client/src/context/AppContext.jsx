@@ -2,12 +2,12 @@ import { createContext, useState } from "react";
 
 export const AppContext = createContext()
 
-const AppCOntextProvider = (props)=>{
+const AppContextProvider = (props)=>{
     const [user, setUser] = useState(null);
-    const [showLogin, setshowLogin] = useState(false);
+    const [showLogin, setShowLogin] = useState(false);
 
     const value ={
-        user, setUser, showLogin, setshowLogin
+        user, setUser, showLogin, setShowLogin
     }
 
     return(
@@ -17,4 +17,4 @@ const AppCOntextProvider = (props)=>{
         </AppContext.Provider>
     )
 }
-export default AppCOntextProvider
+export default AppContextProvider
